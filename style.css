@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* header top  */
+.top{
+     display: flex;
+     width: 100%;
+     border: solid black 2px;
+     height: 6vh;
+     align-items: center;
+     background-color: rgba(30, 79, 132, 0.5)
+}
+.logo{
+    margin-left: 50px;
+}
+.navbar{
+    margin-left: 150px;
+}
+.navbar ul{
+    display: flex;
+
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.contact{
+    margin-left: 150px;
+}
+.btn{
+    margin-left: 90px;
+}
+
+img{
+    width: 150px;
+    height: 120px;
+}
+
+    /* <!-- HTML !-->
+    <button class="button" role="button">Button </button> */
+    
+    /* CSS */
+.btn button
+{
+       cursor: pointer;
+        height: 4vh;
+        width: 150px;
+        background: lightseagreen;
+        margin: 20px;
+        float: left;
+        border:0px;
+        color:#fff;
+        box-shadow: 0 0 1px #ccc;
+        -webkit-transition-duration: 0.5s;
+        -webkit-transition-timing-function: linear;
+        box-shadow:0px 0 0 #31708f  inset;
+}
+.btn button:hover{
+    cursor: pointer;
+        box-shadow:0 0 0 25px #31708f  inset;
+        -webkit-transform: scale(1);
+}
+.head{
+    /* border: solid black 2px; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 206, 246);
+    width: 100%;
+    margin: auto;
+}
+.nav {
+    display: flex;
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav ul li option{
+    font-size: 20px;
+}
+.nav ul li select{
+    font-size: 20px;
+}
+.in input:hover{
+    border-radius: 12px;
+    width: 400px;
+    height: 4vh;
+    border: solid black 2px;
+}
+.in input{
+    border-radius: 12px;
+    width: 400px;
+    height: 4vh;
+}
+.nts{
+    margin-left: 200px;
+}
+    .nts button{
+    cursor: pointer;
+    height: 4vh;
+    width: 150px;
+    background: rgb(93, 90, 175);
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+    border-radius: 12px;
+}
+.nts button:hover{
+    cursor: pointer;
+    box-shadow:0 0 0 25px #894ab8  inset;
+    -webkit-transform: scale(1);
+}
+.main{
+    background: url(11.jpg) no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#lov{
+    width: 40%;
+    margin: auto;
+    font-size: 30px;
+    padding: 230px 2px;
+    margin-left:420px
+}
+.six button{
+    cursor: pointer;
+    height: 4vh;
+    width: 150px;
+    background: rgb(93, 90, 175);
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    box-shadow:0px 0 0 #8f317c  inset;
+    border-radius: 12px;
+}
+.five{
+    margin-top: 20px;
+}
+ /* footer  */
+ .footer{
+    margin-top: 20px;
+ }
+.headin{
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.ff{
+    margin-top: 30px;
+    display: flex;
+    width: 88%;
+    margin: auto;
+    margin-left: 320px;
+    box-shadow: #8f317c;
+}
+.ff p{
+    margin-top: 8px;
+}
+.o{
+    /* border: solid black 2px; */
+    width: 20%;
+    margin-left: 40px;
+}
+.o img{
+    width: 300px;
+}
+span{
+    color: blue;
+}
+.t{
+    /* border: solid black 2px; */
+    width: 20%;
+    margin-left: 40px;
+
+}
+.w{
+    /* border: solid black 2px; */
+    width: 20%;
+    margin-left: 40px;
+}
+.w img {
+    width: 300px;
+
+}
+.t img{
+    width: 300px;
+}
+.oo{
+    border: solid black 2px;
+    background-color: black ;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.six button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow:0 0 0 25px #c08310  inset;
+    -webkit-transform: scale(1);
+     
+}
